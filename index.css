@@ -27,6 +27,13 @@ button:active {
 	background-color: #a9a9a9;
 	color: #808080;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+/* a {
+
 /* end root */
 
 /* Hero section */
@@ -154,6 +161,12 @@ hr {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+.project-link {
+	text-decoration: none;
+	color: #ef744b;
+}
+
 /* end of project card */
 
 /* footer */
