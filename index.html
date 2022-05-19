@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="index.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
+        <script src="https://kit.fontawesome.com/bb1e68c16c.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Hurricane&family=Koulen&family=Roboto:ital,wght@0,400;1,100&display=swap"
@@ -17,17 +18,20 @@
 		<section class="hero">
 			<nav>
 				<img class="logo" src="images/Logo.png" alt="log" />
-				<ul id="nav-bar">
+				<ul id="nav-list">
 					<li><a href="#about">About me</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contacts">Contacts</a></li>
 				</ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
 			</nav>
 			<div class="hero-area">
 				<div class="hero-text">
 					<h1>Montreal Holley</h1>
 					<p>Developer</p>
-					<button>About me</button>
+					<!-- <button>About me</button>   -->
 				</div>
 				<div class="socials">
 					<div class="social">
@@ -83,66 +87,66 @@
 			<h2>Projects</h2>
 			<div class="project-container">
 				<div class="project-card">
-					<img
+					
+                <a href="https://mrtrell42.github.io/Plenty_of_dog/"
+						target="blank"
+						class="project-link" > <img
 						src="images/Plenty of dog.png"
 						class="project-image"
 						alt="project one"
 					/>
+					
 					<h3>Plenty of Dog</h3>
 					<p class="sub-text">
-						This is one of very first code code project labeled plenty of dog. A
-						spin off of the dating app plenty of fish 😂
+						This is one of very first code along projects labeled Plenty-of-dog. A
+						spin off of the dating app plenty of fish 😂. 
 					</p>
-					<hr />
-					<a
-						href="https://mrtrell42.github.io/Plenty_of_dog/"
-						target="blank"
-						class="project-link"
-					>
-						<p class="sub-text">View here</p></a
-					>
+				
+                </a>
 				</div>
 				<div class="project-card">
-					<img
+					<a
+						href="https://mrtrell42.github.io/100-days-of-code-Personal-Site/"
+						target="blank"
+						class="project-link"
+						><img
 						src="images/Caged Development 1.png"
 						class="project-image"
 						alt="project one"
 					/>
 					<h3>Caged Developer #1</h3>
 					<p class="sub-text">
-						This was one of my babies in terms of Front End development goes
-						atleast. This is also my introduction in the world of Github and
-						Repos.
+						This is my second site created on my journey to front end development. I also began learning the basics of Github with this project. 
 					</p>
-					<hr />
-					<a
-						href="https://mrtrell42.github.io/100-days-of-code-Personal-Site/"
-						target="blank"
-						class="project-link"
-						><p class="sub-text">View here</p></a
-					>
+					
+                    </a>
 				</div>
 				<div class="project-card">
-					<img
-						src="images/Black Jack.png"
-						class="project-image"
-						alt="project one"
-					/>
-					<h3>Black Jack</h3>
-					<p class="sub-text">
-						My introduction to Vanilla Javascript. I am definitelydeveloping the
-						"rumored" love hate relationship with this language.
-					</p>
-					<hr />
+					<div class="card-top">
 					<a
-						href="https://mrtrell42.github.io/Black-Jack/"
-						target="blank"
-						class="project-link"
-						><p class="sub-text">View here</p></a
-					>
+							href="https://mrtrell42.github.io/Black-Jack/"
+							target="blank"
+							class="project-link"
+							>	<img
+							src="images/Black Jack.png"
+							class="project-image"
+							alt="project one"
+						/>
+						<h3>Black Jack</h3>
+						<p class="sub-text">
+							My introduction to Vanilla Javascript. I am definitely developing
+							the "rumored" love hate relationship with this language.
+						</p>
+					</div>
+				</a>
 				</div>
 				<div class="project-card">
-					<img
+				
+                <a
+						href="https://mrtrell42.github.io/S_williams-Test/"
+						target="blank"
+						class="project-link"
+						>    <img
 						src="images/Coach Shelby.png"
 						class="project-image"
 						alt="project four"
@@ -153,18 +157,13 @@
 						time only because I was experimenting with transitions in CSS. It is
 						a simple layout but for me is a sign on my growth! Go Me!!
 					</p>
-					<hr />
-					<a
-						href="https://mrtrell42.github.io/S_williams-Test/"
-						target="blank"
-						class="project-link"
-						><p class="sub-text">View here</p></a
-					>
-				</div>
+                </a>
 			</div>
 		</section>
-		<footer></footer>
+		<footer id="contacts">
 
-		<script src=""></script>
+            <h2>Contact me</h2>
+        </footer>
+		<script src="index.js"></script>
 	</body>
 </html>
